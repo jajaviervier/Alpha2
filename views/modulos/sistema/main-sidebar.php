@@ -17,7 +17,7 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" >
         <li class="header">Menú</li>
-  
+        <!--  Home -->
         <li class="treeview">
                 <a href="home">
                     <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
@@ -27,7 +27,60 @@
                     </span>
                 </a>
             </li>
-            <ul></ul>
+    <!--  Home -->
+
+  <!--  Usuarios -->
+  <li class="treeview">
+                <a href="home">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Usuarios</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Usuarios -->
+
+
+
+  <!--  Funcionarios -->
+  <li class="treeview">
+                <a href="funcionarios">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Funcionarios</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Funcionarios -->
+
+        <!--  Armas -->
+        <li class="treeview">
+                <a href="armas">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Armas</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Armas -->
+
+
+       <!--  Escudos -->
+       <li class="treeview">
+                <a href="home">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Escudos</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Escudos -->
+
+
     
 
       </ul>

@@ -13,7 +13,8 @@ class ControllerEnrutamiento {
 		
 		} else {
 
-			if ($ruta == "resumenDiario"){
+			if ($ruta == "resumenDiario"  ||
+			$ruta == "funcionarios"){
 
 			include "views/modulos/".$ruta.".php";
 		
