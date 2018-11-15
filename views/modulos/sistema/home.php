@@ -17,6 +17,27 @@
 
 
   <div class="row">
+  <!-- Tarjeta Vehiculo -->
+  <div class="col-sm-6">
+
+<div class="info-box bg-grey">
+<span class="info-box-icon"><i class="fas fa-car"></i>
+</span>
+<div class="info-box-content">
+<span class="info-box-text">Vehiculos En Terreno</span>
+<span class="info-box-number">2/8</span>
+<!-- The progress section is optional -->
+<div class="progress">
+  <div class="progress-bar" style="width: 20%;"></div>
+</div>
+<span class="progress-description">
+ Actualizado hace 3 min...
+</span>
+</div>
+
+</div>
+</div>
+<!-- Tarjeta Vehiculo -->
     <div class="col-sm-6">
 <!-- Apply any bg-* class to to the info-box to color it -->
         <div class="info-box bg-grey">
@@ -78,30 +99,11 @@
 </div>
 
 </div>
+
 </div>
 <!-- Tarjeta Armas -->
 
-<!-- Tarjeta Quimico -->
-<div class="col-sm-6">
 
-<div class="info-box bg-grey">
-<span class="info-box-icon"><i class="fas fa-flask"></i>
-</span>
-<div class="info-box-content">
-<span class="info-box-text">Quimicos Disponible</span>
-<span class="info-box-number">200/1800</span>
-<!-- The progress section is optional -->
-<div class="progress">
-  <div class="progress-bar " style="width: 20%;"></div>
-</div>
-<span class="progress-description">
- Actualizado hace 3 min...
-</span>
-</div>
-
-</div>
-</div>
-<!-- Tarjeta Quimicos -->
     </section>
     <!-- /.content -->
   </div>

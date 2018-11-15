@@ -48,7 +48,7 @@ body{
   <?php
     session_start();
     
-    if (isset($_SESSION["autenticar"]) && $_SESSION["autenticar"] == "ok") {
+    if (isset($_SESSION["autenticar"]) && $_SESSION["autenticar"] == "ok" ) {
       include "modulos/sistema/header.php";
       include "modulos/sistema/main-sidebar.php";
 
@@ -57,7 +57,7 @@ body{
         $enrutar = new ControllerEnrutamiento();
         $enrutar -> enrutamiento();
 error_reporting(0);
-        include "modulos/modales/modales-".$_GET["ruta"].".php";
+    
       } else {
         include "modulos/sistema/home.php";
       }
@@ -75,11 +75,7 @@ error_reporting(0);
 <script>
   
   $(function () {
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-blue',
-      radioClass: 'iradio_square-blue',
-      increaseArea: '20%' /* optional */
-    });
+
   });
 </script>
 

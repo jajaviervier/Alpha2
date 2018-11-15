@@ -13,10 +13,14 @@ class ControllerEnrutamiento {
 		
 		} else {
 
-			if ($ruta == "resumenDiario"  ||
-			$ruta == "funcionarios"){
+			if ($ruta == "resumenDiario"  
+			||$ruta == "funcionarios"
+			||$ruta == "armas"
+			||$ruta == "cascos"
+			||$ruta == "accesorios"
+			){
 
-			include "views/modulos/".$ruta.".php";
+			include "views/modulos/".$ruta."/".$ruta.".php";
 		
 		} else{
 			include "views/modulos/error404.php";

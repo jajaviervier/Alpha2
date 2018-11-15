@@ -68,17 +68,53 @@
     <!--  Armas -->
 
 
-       <!--  Escudos -->
+       <!--  CAscos -->
        <li class="treeview">
-                <a href="home">
+                <a href="cascos">
                     <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
-                    <span>Escudos</span>
+                    <span>Cascos</span>
                     <span class="pull-right-container">
                         <i class="fa fa-link"></i>
                     </span>
                 </a>
             </li>
-    <!--  Escudos -->
+    <!--  CAscos -->
+
+
+    
+       <!--  Quimicos -->
+       <li class="treeview">
+                <a href="quimicos">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Quimicos</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Quimicos -->
+           <!--  Radios -->
+           <li class="treeview">
+                <a href="radios">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Radios</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Radios -->
+   <!--  Chalecos -->
+   <li class="treeview">
+                <a href="chalecos">
+                    <img src="views/dist/img/iconos/resumen.png" style="width: 25px;">
+                    <span>Chalecos</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-link"></i>
+                    </span>
+                </a>
+            </li>
+    <!--  Chalecos -->
 
 
     
